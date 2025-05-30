@@ -41,8 +41,7 @@ onMounted(() => {
   window.addEventListener("resize", resizeCanvas);
 
   // Matrix karakterleri
-  const letters =
-    "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズヅブプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const letters = "01";
   const fontSize = 18;
   const columns = Math.floor(canvas.width / fontSize);
   const drops = Array(columns).fill(1);
