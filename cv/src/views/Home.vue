@@ -17,8 +17,7 @@
       <p
         class="text-lg sm:text-xl md:text-2xl text-[#00FF41] drop-shadow-[0_0_6px_#00FF41] animate-slide-up break-words"
       >
-        Modern ve yaratıcı web çözümleri geliştiren bir yazılım
-        geliştiricisiyim.
+        Bilgisayar programcısıyım frontend ve backend alanlarında çalışıyorum.
       </p>
     </div>
   </div>
@@ -59,7 +58,9 @@ onMounted(() => {
       if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
         drops[i] = 0;
       }
-      drops[i]++;
+      if (Math.random() > 0.7) {
+        drops[i]++;
+      }
     }
     animationId = requestAnimationFrame(draw);
   }

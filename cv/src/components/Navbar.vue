@@ -3,12 +3,8 @@
     class="fixed top-0 left-0 w-full z-50 bg-[#232728] bg-opacity-95 shadow-lg border-b border-[#00FF41]/40"
   >
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <router-link
-        to="/"
-        class="text-[#00FF41] font-bold text-xl tracking-widest drop-shadow-[0_0_6px_#00FF41]"
-      >
-        Portfolio
-      </router-link>
+      <br />
+
       <ul class="flex space-x-8">
         <li>
           <router-link

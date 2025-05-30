@@ -23,8 +23,8 @@
               class="object-cover rounded-xl h-64 w-auto max-w-full shadow-lg mb-2"
             />
             <p class="text-gray-200 text-center text-base mt-2">
-              Ana sayfa ve genel görünüm: Vakfın kurumsal kimliğini yansıtan
-              modern ana sayfa tasarımı.
+              Vakıf Yönetim Paneli: Personel girişi, dosya yönetimi ve başvuru
+              takip sisteminin yer aldığı yönetim paneli.
             </p>
           </div>
           <div class="flex flex-col items-center">
@@ -34,8 +34,8 @@
               class="object-cover rounded-xl h-64 w-auto max-w-full shadow-lg mb-2"
             />
             <p class="text-gray-200 text-center text-base mt-2">
-              Hizmetler bölümü: Vakfın sunduğu hizmetlerin detaylı ve anlaşılır
-              şekilde sunumu.
+              Yardım Başvuru Formu: Maddi yardım, şahsi yardım ve aile bakım
+              desteği başvurularının yapılabileceği form sayfası.
             </p>
           </div>
           <div class="flex flex-col items-center">
@@ -45,8 +45,8 @@
               class="object-cover rounded-xl h-64 w-auto max-w-full shadow-lg mb-2"
             />
             <p class="text-gray-200 text-center text-base mt-2">
-              Galeri: Etkinliklerden ve vakıf faaliyetlerinden fotoğrafların yer
-              aldığı galeri bölümü.
+              Başvuru Takip Sistemi: Başvuru durumu sorgulama, doküman yükleme
+              ve bildirim sisteminin yer aldığı takip sayfası.
             </p>
           </div>
           <div class="flex flex-col items-center">
@@ -56,26 +56,62 @@
               class="object-cover rounded-xl h-64 w-auto max-w-full shadow-lg mb-2"
             />
             <p class="text-gray-200 text-center text-base mt-2">
-              İletişim ve ulaşım: Ziyaretçilerin vakıf ile kolayca iletişime
-              geçebileceği ve yol tarifi alabileceği iletişim sayfası.
+              Zekat ve Bağış Sistemi: Zekat, sadaka ve diğer bağışların güvenli
+              bir şekilde yapılabileceği bağış sayfası.
             </p>
           </div>
         </div>
         <div class="text-gray-200 space-y-4">
           <p>
             <strong class="text-[#00FF41]">Proje Açıklaması:</strong> Sami
-            Efendi Vakfı için hazırlanan bu web sitesi, vakfın dijital varlığını
-            güçlendirmek ve ziyaretçilere modern, kullanıcı dostu bir deneyim
-            sunmak amacıyla tasarlanmıştır.
+            Efendi Vakfı için geliştirilen bu web uygulaması, vakfın tüm
+            operasyonlarını dijital ortamda yönetmek ve yardım süreçlerini daha
+            etkili bir şekilde yürütmek amacıyla tasarlanmıştır.
           </p>
+          <p>
+            <strong class="text-[#00FF41]">Temel Özellikler:</strong>
+          </p>
+          <ul class="list-disc pl-6 space-y-2">
+            <li>
+              <strong class="text-[#00FF41]">Vakıf Yönetim Sistemi:</strong>
+              <ul class="list-disc pl-6 mt-1">
+                <li>Vakıf personeli için güvenli giriş sistemi</li>
+                <li>Dosya ve kayıt yönetimi</li>
+                <li>Yardım başvurularının takibi</li>
+                <li>Mali raporlama ve takip sistemi</li>
+              </ul>
+            </li>
+            <li>
+              <strong class="text-[#00FF41]">Yardım Başvuru Sistemi:</strong>
+              <ul class="list-disc pl-6 mt-1">
+                <li>Maddi yardım başvuruları</li>
+                <li>Şahsi yardım başvuruları</li>
+                <li>Zekat ve sadaka bağışları</li>
+                <li>Aile bakım desteği başvuruları</li>
+              </ul>
+            </li>
+            <li>
+              <strong class="text-[#00FF41]">Başvuru Takip Sistemi:</strong>
+              <ul class="list-disc pl-6 mt-1">
+                <li>Başvuru durumu sorgulama</li>
+                <li>Otomatik bildirim sistemi</li>
+                <li>Doküman yükleme ve takibi</li>
+              </ul>
+            </li>
+          </ul>
           <p>
             <strong class="text-[#00FF41]">Teknolojiler:</strong> Vue.js,
-            Tailwind CSS, Kurumsal Web Tasarımı
+            Tailwind CSS, Node.js, MongoDB, JWT Authentication
           </p>
           <p>
-            <strong class="text-[#00FF41]">Özellikler:</strong> Çoklu görsel
-            desteği, responsive tasarım, kolay yönetilebilir içerik yapısı.
+            <strong class="text-[#00FF41]">Güvenlik Özellikleri:</strong>
           </p>
+          <ul class="list-disc pl-6 mt-1">
+            <li>SSL sertifikası ile güvenli veri transferi</li>
+            <li>Rol tabanlı yetkilendirme sistemi</li>
+            <li>Veri şifreleme ve güvenli depolama</li>
+            <li>Düzenli yedekleme sistemi</li>
+          </ul>
         </div>
       </div>
     </div>
